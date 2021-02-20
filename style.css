@@ -1,10 +1,91 @@
-html body {
+html, body {
     width: 100%;
     height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #ECEEF1;
 }
-
 .content {
     width: 100%;
     display: block;
+    margin: 0;
+    padding: 0;
+}
+h2 {
     text-align: center;
+    color: #393A3D;
+    font-size: 24px;
+}
+p, a {
+    color: #393A3D;
+    font-size: 14px;
+    display: block;
+}
+/* HEADER */
+
+.head {
+    text-align: center;
+    margin-top: 60px;
+}
+.icon-list {
+    display: block;
+    text-align: center;
+    padding: 0;
+    height: 23px;
+}
+.icon-item {
+    display: inline;
+}
+/* MAIN FORM */
+button {
+    background: #0077C5;
+    border: none;
+    border-color: #0077C5;
+    border-radius: 4px;
+    height: 44px;
+    width: 99%;
+    color: #fff;
+    margin-top: 30px;
+}
+a {
+    color: #0077C5;
+}
+input {
+    border: 1px solid #C1C5C8;
+    height: 34px;
+    width: 320px;
+    padding: 0 6px 0 8px;
+}
+.main-content {
+    margin: auto;
+    width: 340px;
+    text-align: left;
+    padding: 30px;
+    border: 1px solid #c7c7c7;
+    background-color: #fff;
+}
+.descriptor {
+    text-align: center;
+}
+.small {
+    font-size: 10px;
+    padding-top: 20px;
+}
+/* FOOTER */
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-list {
+    display: block;
+    text-align: center;
+    padding: 0;
+}
+.footer-item {
+    display: inline;
+    color: #0077C5;
+    font-size: 12px;
+}
+.footer-text {
+    font-size: 12px;
 }

@@ -4,42 +4,46 @@
 <link rel="stylesheet" href="style.css">
 <body>
 
-<div class="content">
-    <div>
+<div class="head">
+    <div class="head">
         <h1>Intuit</h1>
     </div>
-    <nav>
-        <li>mint</li>
-        <li>quickbooks</li>
-        <li>turbotax</li>
+    <nav class="icon-list">
+        <ul class="icon-list">
+            <li class="icon-item">mint</li>
+            <li class="icon-item">quickbooks</li>
+            <li class="icon-item">turbotax</li>
+        </ul>
     </nav>
-    <div>
+</div>
+<div class="content">
+    <div class="main-content">
         <form>
-            <h2>Create an Intuit Account</h2>
-            <p>One account for everything Intuit, including Mint.</p>
-            <a>Learn More</a>
+            <h2 class="descriptor">Create an Intuit Account</h2>
+            <p class="descriptor">One account for everything Intuit, including Mint.</p>
+            <a class="descriptor" target="_blank" href="">Learn More</a>
             <p>Email Address</p>
-            <input>
+            <input type="email">
             <p>Phone (recommended)</p>
             <input>
             <p>Password</p>
-            <input>
+            <input type="password">
             <button>Create Account</button>
-            <p>By clicking Create Account, you agree to our Terms and have read and acknowledge our Global Privacy Statement.</p>
-            <p>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</p>
+            <p class="descriptor">By clicking Create Account, you agree to our Terms and have read and acknowledge our Global Privacy Statement.</p>
+            <p class="descriptor small">Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</p>
         </form>
     </div>
-    <footer>
-        <nav>
-            <ul>
-                <li>Legal</li>
-                <li>Privacy</li>
-                <li>Security</li>
+    <footer class="footer">
+        <nav class="footer-list">
+            <ul class="footer-list">
+                <li class="footer-item">Legal</li>
+                <li class="footer-item">Privacy</li>
+                <li class="footer-item">Security</li>
             </ul>
         </nav>
         <div>
-            <p>© 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
-                Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+            <p class="footer-text">© 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+            <p class="footer-text">Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
         </div>
     </footer>
 
